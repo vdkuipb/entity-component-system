@@ -1,3 +1,3 @@
-import { helloWorld } from "./Example";
-
-helloWorld();
+export * from "./Entity";
+export * from "./IComponent";
+export * from "./System";
