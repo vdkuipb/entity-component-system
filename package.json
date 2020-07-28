@@ -1,0 +1,33 @@
+{
+  "name": "package-template",
+  "version": "1.0.0",
+  "description": "A package template for future packages",
+  "main": "build/index.js",
+  "typings": "build/types/index.d.ts",
+  "scripts": {
+    "test": "node_modules/.bin/jest --config jest.config.js",
+    "lint": "node_modules/.bin/tslint --config tslint.json '**/*.ts' --exclude '**/node_modules/**'",
+    "build": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdkuipb/package-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdkuipb/package-template/issues"
+  },
+  "homepage": "https://github.com/vdkuipb/package-template#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.4",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
