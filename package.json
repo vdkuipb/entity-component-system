@@ -1,5 +1,5 @@
 {
-  "name": "package-template",
+  "name": "entity-component-system",
   "version": "1.0.0",
   "description": "A package template for future packages",
   "main": "build/index.js",
